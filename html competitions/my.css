@@ -1,0 +1,209 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+ background-color: #E8E8E8;
+}
+
+
+
+
+.header{
+    width: 100%;
+    height: 80px; 
+    background-color: #E8E8E8;
+    display: block;
+}
+
+.logo{
+    
+    display: table;
+    float: left;
+}
+.logo img{
+    width: 77px;
+    height: 77px;
+    margin-left: 10px;
+
+}
+
+
+.navigationbar {
+    float: right;
+    height: 100%;
+}
+.navigationbar a {
+ height: 100%;
+ display: table;   
+ float: left;
+ padding: 0px 20px;
+ text-decoration: none;
+}
+
+.navigationbar a li {
+display: table-cell;
+vertical-align: middle;
+color: #2E2E2E;
+height: 100%;
+}
+.navigationbar a:hover{
+  color: #22cbc5;
+  font-size: larger;
+}
+
+  #imagebelow {
+
+display: block;
+position: relative;
+background-position: 0 500px;
+margin-top: 0px;
+align-items: left;
+align-content: center;
+
+
+} 
+
+.t1{
+  color: #2E2E2E;
+    font-size: 20px;
+    align-items: center;
+    font-family: 'Anek Malayalam', sans-serif;
+    text-align: justify;
+    text-align: right;
+
+}
+
+.t2 {
+  color: #2E2E2E;
+    font-size: 30px;
+    align-items: center;
+    font-family: 'Anek Malayalam', sans-serif;
+    text-align: justify;
+    text-align: center;
+}
+
+p#name{
+  font-size: 27px;
+}
+
+#footer {
+  height: 30px;
+  width: 100%;
+  background-color: #2E2E2E;
+  text-align: center;
+ color: #E8E8E8;
+ 
+ }
+
+
+  
+.mt  {
+    text-align: center;
+    font-size: 30px;
+  color: white;
+
+  }
+  .mt p :hover{
+    font-size: larger;
+    color: yellow;
+  }
+
+  .aboutus {
+    padding: 50px;
+    text-align: center;
+    background-color: #2E2E2E;
+    color: #E8E8E8;
+  }
+
+  .idcard {
+    color: rgb(0, 0, 0);
+    display: block;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+  margin: 100px;
+  padding: 100pxS;
+  }
+  .b1 {
+    border-width: 2px;
+    border-style: solid;
+    border-color: darkgoldenrod;
+  
+  }
+  .b2{
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(82, 0, 136);
+  
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin-top: 20px;
+  }
+  
+  
+  .row {
+    margin: 0 -5px;
+    margin-top: 20px;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+  }
+
+  .checked{
+    color: aqua;
+  }
+
+  .event {
+ font-size: 20px;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: bold;
+  }
+  .card h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+  }
+  .card a{
+    
+    text-decoration: none;
+    font-size: 15px;
+    color: yellowgreen;
+  }
+
+ 
+  
